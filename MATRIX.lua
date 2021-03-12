@@ -11335,7 +11335,7 @@ database:set(bot_id.." sofi:zhrf_Bots"..msg.chat_id_,"open")
 end
 if text and text:match("^زغرفه (.*)$") and database:get(bot_id.." sofi:zhrf_Bots"..msg.chat_id_) == "open" then
 local TextZhrfa = text:match("^زغرفه (.*)$")
-zh = https.request('https://rudi-dev.tk/Amir1/Boyka.php?en='..URL.escape(TextZhrfa)..'')
+zh = https.request('https://ahmedcg4.ml/zho.php?en='..URL.escape(TextZhrfa)..'')
 zx = JSON.decode(zh)
 t = "\n≁⎠ قائمه الزغرفه \n☾• ━━━━━━━━━━━━━━ •☾\n"
 i = 0
@@ -11355,7 +11355,7 @@ database:set(bot_id.." sofi:brj_Bots"..msg.chat_id_,"open")
 end
 if text and text:match("^برج (.*)$") and database:get(bot_id.." sofi:brj_Bots"..msg.chat_id_) == "open" then
 local Textbrj = text:match("^برج (.*)$")
-gk = https.request('https://evzxar.ml/hssen/brjj.php?br='..URL.escape(Textbrj)..'')
+gk = https.request('https://ahmedcg4.ml/Abraj.php?br='..URL.escape(Textbrj)..'')
 br = JSON.decode(gk)
 i = 0
 for k,v in pairs(br.ok) do
@@ -11378,7 +11378,7 @@ database:set(bot_id.." sofi:age_Bots"..msg.chat_id_,"open")
 end
 if text and text:match("^احسب (.*)$") and database:get(bot_id.." sofi:age_Bots"..msg.chat_id_) == "open" then
 local Textage = text:match("^احسب (.*)$")
-ge = https.request('https://rudi-dev.tk/Amir3/Boyka.php?age='..URL.escape(Textage)..'')
+ge = https.request('https://ahmedcg4.ml/Age.php?age='..URL.escape(Textage)..'')
 ag = JSON.decode(ge)
 i = 0
 for k,v in pairs(ag.ok) do
@@ -11432,7 +11432,7 @@ end
 end
 if text == "مصه" or text == "بوسه" or text == "بوسي" or text == "مصي" then
 if not database:get(bot_id..'lock:add'..msg.chat_id_) then
-local texting = {"مووووووووواححح💋","مابوس ولي😌😹","خدك/ج نضيف 😂","البوسه بالف حمبي 🌝💋","خلي يزحفلي وابوسه 🙊??","كل شويه ابوسه كافي 😏","ماابوسه والله هذا زاحف🦎","محح هاي لحاته صاكه💋"}send(msg.chat_id_, msg.id_, ''..texting[math.random(#texting)]..'')
+local texting = {"مووووووووواححح💋","مابوس ولي😌😹","خدك/ج نضيف 😂","البوسه بالف حمبي 🌝💋","خلي يزحفلي وابوسه 🙊😻","كل شويه ابوسه كافي 😏","ماابوسه والله هذا زاحف🦎","محح هاي لحاته صاكه💋"}send(msg.chat_id_, msg.id_, ''..texting[math.random(#texting)]..'')
 end
 end
 if text == 'تفعيل الردود' and Manager(msg) then   
