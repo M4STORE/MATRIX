@@ -1067,7 +1067,7 @@ end
 
 if text == 'تحديث السورس ℘' and DevSoFi(msg) then 
 os.execute('rm -rf MATRIX.lua')
-os.execute('wget https://raw.githubusercontent.com/SRC-MATRIX/MATRIX/main/MATRIX.lua'.)
+os.execute('wget https://raw.githubusercontent.com/SRCMATRIX/MATRIX/main/MATRIX.lua'.)
 send(msg.chat_id_, msg.id_,' ℘︙ تم تحديث السورس \n ℘︙ لديك اخر اصدار لسورس دراكون\n ℘︙ الاصدار » { v 1.5}')
 dofile('MATRIX.lua')  
 end
@@ -2314,7 +2314,7 @@ end
 return false
 end
 os.execute('rm -rf MATRIX.lua')
-os.execute('wget https://raw.githubusercontent.com/SRC-MATRIX/MATRIX/main/MATRIX.lua')
+os.execute('wget https://raw.githubusercontent.com/SRCMATRIX/MATRIX/main/MATRIX.lua')
 send(msg.chat_id_, msg.id_,' ℘︙ تم تحديث السورس \n ℘︙ لديك اخر اصدار لسورس دراكون\n ℘︙ الاصدار » { v 1.5}')
 dofile('MATRIX.lua')  
 end
@@ -12021,7 +12021,7 @@ keyboard.inline_keyboard = {
 {text = '🔙 الاوامر الرئيسيه 🔙', callback_data="/help"},
 },
 {
-{text = '𝐃𝐑𝐀𝐆𝐎𝐍 𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url="t.me/S0DRG"},
+{text = '𝐃𝐑𝐀𝐆𝐎𝐍 𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url="t.me/X04XX"},
 },
 }
 return https.request("https://api.telegram.org/bot"..token..'/editMessageText?chat_id='..Chat_id..'&text='..URL.escape(Teext)..'&message_id='..msg_idd..'&parse_mode=markdown&disable_web_page_preview=true&reply_markup='..JSON.encode(keyboard)) 
