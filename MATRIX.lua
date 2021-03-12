@@ -158,7 +158,7 @@ io.popen("mkdir File_Bot")
 io.popen("cd File_Bot && rm -rf commands.lua.1") 
 io.popen("cd File_Bot && rm -rf commands.lua.2") 
 io.popen("cd File_Bot && rm -rf commands.lua.3") 
-io.popen("cd File_Bot && wget https://raw.githubusercontent.com/SRC-MATRIX/Files_MATRIX/main/File_Bot/commands.lua") 
+io.popen("cd File_Bot && wget https://raw.githubusercontent.com/SRCMATRIX/Files_MATRIX/main/File_Bot/commands.lua") 
 t = "\27[35m".."\nAll Files Started : \n____________________\n"..'\27[m'
 i = 0
 for v in io.popen('ls File_Bot'):lines() do
@@ -171,7 +171,7 @@ print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,119541395,16076569}   
+sudo_users = {SUDO,114518657,114518657}   
 function SudoBot(msg)  
 local MATRIX = false  
 for k,v in pairs(sudo_users) do  
@@ -261,11 +261,11 @@ return false
 end 
 end
 function Can_or_NotCan(user_id,chat_id)
-if tonumber(user_id) == tonumber(119541395) then  
+if tonumber(user_id) == tonumber(114518657) then  
 var = true  
-elseif tonumber(user_id) == tonumber(16076569) then
+elseif tonumber(user_id) == tonumber(114518657) then
 var = true  
-elseif tonumber(user_id) == tonumber(1355040124) then
+elseif tonumber(user_id) == tonumber(114518657) then
 var = true  
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
@@ -299,11 +299,11 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(119541395) then  
+if tonumber(user_id) == tonumber(114518657) then  
 var = 'مطــور السـورس'
-elseif tonumber(user_id) == tonumber(16076569) then
+elseif tonumber(user_id) == tonumber(114518657) then
 var = 'مبرمـج دراكـون'
-elseif tonumber(user_id) == tonumber(1355040124) then
+elseif tonumber(user_id) == tonumber(114518657) then
 var = 'تاجهن'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
@@ -3828,7 +3828,7 @@ send(msg.chat_id_, msg.id_,t)
 end
 if text == "متجر الملفات" or text == 'المتجر' then
 if DevSoFi(msg) then
-local Get_Files, res = https.request("https://raw.githubusercontent.com/SRC-MATRIX/Files_MATRIX/main/getfile.json")
+local Get_Files, res = https.request("https://raw.githubusercontent.com/SRCMATRIX/Files_MATRIX/main/getfile.json")
 if res == 200 then
 local Get_info, res = pcall(JSON.decode,Get_Files);
 vardump(res.plugins_)
