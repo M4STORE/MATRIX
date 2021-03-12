@@ -2601,7 +2601,7 @@ Text = [[
 ≁ ⦑ SOURCE MATRIX ⦒ 
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
 ≁⎠ [Source Channel](t.me/X04XX)
-≁⎠ [Source Update ](t.me/FIDRG)     
+≁⎠ [Source Update ](t.me/Matrix_file)     
 ≁⎠ [Source developer](t.me/IZlZ7I)     
 ≁⎠ [MATRIX programmer](t.me/IZlZ7I) 
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
